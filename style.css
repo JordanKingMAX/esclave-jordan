@@ -1,0 +1,36 @@
+
+body {
+  background: black;
+  color: #00ff00;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+#terminal {
+  padding: 20px;
+}
+
+#chat {
+  height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  background: #111;
+  color: #0f0;
+  border: 1px solid #0f0;
+}
+
+body.hacked {
+  animation: glitch 0.1s infinite;
+}
+
+@keyframes glitch {
+  0% { background-color: black; }
+  50% { background-color: red; }
+  100% { background-color: black; }
+}
